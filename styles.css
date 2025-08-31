@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Oswald, sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.container-left {
+  display: inline-block;
+  width: 60%;
+  padding-left: 136px;
+  margin-top: 11%;
+}
+
+.container-left h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 80px;
+  color: #5d5d9d;
+  width: 368px;
+}
+
+.container-left p {
+  font-size: 1.65rem;
+  font-weight: 400;
+  line-height: 48px;
+  color: #5d5d9d;
+  opacity: 0.6;
+  margin: 15px 0;
+  width: 540px;
+}
+
+.button-get {
+  width: 269px;
+  height: 62px;
+  background: #9499ea;
+  box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button-get:hover {
+  opacity: 0.8;
+}
+
+.button-get:active {
+  opacity: 0.5;
+}
+
+.container-right {
+  display: inline-block;
+  background: rgba(93, 93, 125, 0.16);
+  height: 100%;
+  width: 40%;
+  position: absolute;
+}
+
+header {
+  margin: 24px 0 0 47px;
+}
+
+header a {
+  font-size: 28px;
+  line-height: 41px;
+  color: #5d5d7d;
+  margin-right: 33px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header a:active {
+  opacity: 0.8;
+}
+
+header a span {
+  opacity: 0.4;
+}
+
+.image-phone {
+  position: relative;
+  width: 370px;
+  height: 420px;
+  top: 12%;
+  right: 115px;
+}
+
+@media (max-width: 1150px) {
+  .container-left {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-left h1 {
+    font-size: 46;
+    line-height: 80px;
+    width: 400px;
+    margin: 58px auto 0 auto;
+    text-align: center;
+  }
+
+  .container-left p {
+    font-size: 14px;
+    font-weight: 25px;
+    margin: 15px auto 0 auto;
+    width: 400px;
+    text-align: center;
+  }
+
+  .button-get {
+    display: block;
+    margin: 20px auto 20px auto;
+  }
+
+  header {
+    display: none;
+  }
+
+  .container-right {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-phone {
+    width: 50vw;
+    height: auto;
+    position: static;
+    margin: 40px 25% 55% 25%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-left h1 {
+    width: auto;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    margin: 27px 50px 0 50px;
+  }
+
+  .container-left p {
+    font-size: 13px;
+    font-weight: 24px;
+    margin: 15px 40;
+    width: auto;
+    text-align: center;
+  }
+}
